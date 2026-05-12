@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astana Mulya Contractor | Membangun dengan Kualitas & Integritas</title>
+    <style>
+        :root {
+            --gold: #d4af37;
+            --black: #0f0f0f;
+            --dark-grey: #1a1a1a;
+            --white: #ffffff;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+        body { background-color: var(--black); color: var(--white); line-height: 1.6; scroll-behavior: smooth; }
+
+        header {
+            background: rgba(15, 15, 15, 0.95);
+            padding: 15px 5%;
+            display: flex; justify-content: space-between; align-items: center;
+            position: fixed; width: 100%; top: 0; z-index: 1000;
+            border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+        }
+
+        .logo-text { color: var(--gold); font-weight: bold; letter-spacing: 2px; font-size: 20px; }
+
+        nav ul { display: flex; list-style: none; gap: 20px; }
+        nav a { color: var(--white); text-decoration: none; font-size: 13px; text-transform: uppercase; transition: 0.3s; }
+        nav a:hover { color: var(--gold); }
+
+        .hero {
+            height: 100vh;
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1541888946425-d81bb19480c5?q=80&w=2070') center/cover;
+            display: flex; flex-direction: column; justify-content: center; padding: 0 10%;
+        }
+
+        .hero h1 { font-size: 50px; color: var(--gold); text-transform: uppercase; margin-bottom: 20px; }
+        .hero p { font-size: 18px; max-width: 600px; margin-bottom: 30px; color: #ccc; }
+
+        .cta-btn {
+            background: var(--gold); color: var(--black); padding: 15px 35px;
+            text-decoration: none; font-weight: bold; border-radius: 2px; transition: 0.3s;
+        }
+        .cta-btn:hover { background: #fff; transform: translateY(-3px); }
+
+        section { padding: 80px 10%; }
+        .section-title { text-align: center; margin-bottom: 50px; }
+        .section-title h2 { color: var(--gold); text-transform: uppercase; letter-spacing: 3px; }
+        .divider { width: 60px; height: 3px; background: var(--gold); margin: 15px auto; }
+
+        .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center; }
+        .about-text p { margin-bottom: 20px; color: #bbb; text-align: justify; }
+
+        .portfolio-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; }
+        .portfolio-item { background: var(--dark-grey); border-radius: 5px; overflow: hidden; border: 1px solid #222; transition: 0.3s; }
+        .portfolio-item:hover { border-color: var(--gold); transform: translateY(-10px); }
+        .portfolio-img { width: 100%; height: 250px; object-fit: cover; }
+        .portfolio-info { padding: 20px; }
+        .portfolio-info h4 { color: var(--white); margin-bottom: 5px; }
+        .portfolio-info p { color: var(--gold); font-size: 13px; text-transform: uppercase; }
+
+        footer { padding: 50px 10%; background: #050505; border-top: 1px solid #222; text-align: center; }
+        .footer-info { margin-bottom: 30px; }
+        .copyright { font-size: 12px; color: #555; }
+
+        @media (max-width: 768px) {
+            .about-grid { grid-template-columns: 1fr; }
+            .hero h1 { font-size: 32px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo-text">ASTANA MULYA</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#portfolio">Portofolio</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h1>Astana Mulya Contractor</h1>
+        <p>Mewujudkan Bangunan Impian dengan Kualitas, Ketepatan Waktu, dan Integritas Tinggi di Semarang.</p>
+        <a href="https://wa.me/6281325674849" class="cta-btn">Konsultasi Gratis</a>
+    </section>
+
+    <section id="about">
+        <div class="section-title">
+            <h2>Tentang Kami</h2>
+            <div class="divider"></div>
+        </div>
+        <div class="about-grid">
+            <div class="about-text">
+                <p><strong>Astana Mulya</strong> Astana Mulya Contractor adalah perusahaan kontraktor terpercaya yang berkomitmen untuk memberikan solusi konstruksi berkualitas tinggi dengan fokus pada kepuasan pelanggan. Kami menawarkan berbagai layanan konstruksi, termasuk pembangunan rumah tinggal, gedung komersial, renovasi, serta desain interior dan eksterior.</p>
+                <p>Kami memiliki tim profesional yang terampil dan berdedikasi, siap membantu mewujudkan proyek Anda dengan standar terbaik. Kami selalu mengutamakan kualitas, ketepatan waktu, dan anggaran yang sesuai. Di Astana Mulya Contractor, setiap proyek kami tangani dengan penuh perhatian, mulai dari perencanaan hingga penyelesaian.</p>
+                <p>Kami bangga dapat memberikan layanan yang transparan, efisien, dan dapat diandalkan untuk setiap jenis proyek, besar atau kecil. Hubungi kami sekarang untuk konsultasi dan estimasi biaya gratis!</p>
+            </div>
+            <div style="text-align: center;">
+                <div style="padding: 40px; border: 2px solid var(--gold); color: var(--gold); font-weight: bold; display: inline-block;">
+                    <img src="astana.jpeg" width="200" height="200"/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" style="background: #0a0a0a;">
+        <div class="section-title">
+            <h2>Portofolio</h2>
+            <div class="divider"></div>
+        </div>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <div class="portfolio-info">
+                    <img src="industrial ipin.jpeg" width="200" height="200"/>
+                    <h4>Design Industrial Rumah Tinggal</h4>
+                    <p>Semarang Timur</p>                        
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-info">
+                    <img src="industrial dico.jpeg" width="200" height="200"/>
+                    <h4>Design Industrial Rumah Tinggal</h4>
+                    <p>Semarang Tengah</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-info">
+                    <img src="yuliana.jpeg" width="200" height="200"/>
+                    <h4>Interior Kantor</h4>
+                    <p>Semarang Barat</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-info">   
+                     <img src="yuliana tampak.jpeg" width="200" height="200"/>                
+                    <h4>kantor 2 Lantai</h4>
+                    <p>Semarang Utara</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-info">
+                     <img src="singa.jpeg" width="200" height="200"/>
+                    <h4>Kost 3 Lantai</h4>
+                    <p>Semarang Tengah</p>
+                </div>
+                </div>
+                <div class="portfolio-item">
+                <div class="portfolio-info">
+                    <img src="singa 2.jpeg" width="200" height="200"/>
+                    <h4>kost 2 lantai</h4>
+                    <p>Semarang Barat</p>
+                </div>
+                </div>
+               <div class="portfolio-item">
+                <div class="portfolio-info">
+                    <img src="akrom 1.jpeg" width="200" height="200"/>
+                    <h4>Rumah Tinggal 1 Lantai</h4>
+                    <p>Semarang Timur</p>                        
+                </div>
+             </div>
+            <div class="portfolio-item">
+                <div class="portfolio-info">
+                    <img src="singa 3.jpeg" width="200" height="200"/>
+                    <h4>kost 3 lantai</h4>
+                    <p>Semarang Tengah</p>
+                </div>
+             </div>
+            <div class="portfolio-item">
+                <div class="portfolio-info">
+                    <img src="darti.jpeg" width="200" height="200"/>
+                    <h4>Kost 3 Lantai</h4>
+                    <p>Semarang Barat</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="footer-info">
+            <h3 style="color: var(--gold); margin-bottom: 15px;">HUBUNGI KAMI</h3>
+            <p>📍 Jl. Jatikusuman RT 06 RW 004 Kavling Sayangan No. 14 Mranggen, Demak, Jawa Tengah</p>
+            <p>📞 +62 813-2567-4849 / +62 819-1090-8123</p>
+            <p>✉️ info@astanamulya.com</p>
+        </div>
+        <div class="copyright">
+            &copy; 2026 Astana Mulya Contractor. Seluruh Hak Cipta Dilindungi.
+        </div>
+    </footer>
+
+</body>
+</html>
